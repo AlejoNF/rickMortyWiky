@@ -1,0 +1,20 @@
+.search__list{
+    width: 400px;
+    display:block;
+    padding: 0.8rem 1.5rem;   
+    
+    background-color: darkolivegreen;
+    border-radius: 0px 0px 15px 15px ;
+}
+
+.search__item{
+    display:flex;
+    gap: 0.5rem;
+
+}
+
+.search__item:hover{
+    background-color:rgba(37, 95, 170, 0.505) ;
+    padding: 0.1rem;
+    border-radius: 15px;
+}

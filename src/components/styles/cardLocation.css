@@ -1,0 +1,25 @@
+.location__card{
+
+    width: 100vh;
+    padding: 0.5rem 1.5rem 2.5rem 1.5rem;   
+    background-color: rgb(164, 174, 151);
+    border-radius: 15px;
+    margin: 2rem auto;
+}
+.location__list{
+    display:flex;
+    justify-content:space-evenly;
+    
+}
+
+.location__name{
+    text-align: center;
+    gap:50px;
+    padding:15px;
+    
+    
+}
+
+.location__data{
+    padding-right: 10px;
+}

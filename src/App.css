@@ -1,0 +1,63 @@
+.App{
+    max-width: 1620px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__app{
+    
+    position: relative;
+    display:flex;
+    align-items: center;
+    
+}
+
+.header__background{
+    width: 100%;
+}
+
+.header__name{
+    display:block;
+    margin: 0 auto;
+    position: absolute;
+    transform: translateX(120%);
+}
+
+.card-container{
+    display:flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.form__list{
+    
+    width: max-content;
+    display:block;
+    margin: 5px auto;
+    
+    
+}
+
+.form__input{
+    width: 400px;
+    height: 50px;
+    border-radius: 15px 15px 0px 0px ;
+    text-align: center;
+}
+
+.form__btn{
+    width: 100px;
+    height: 50px;
+    background-color: darkseagreen;
+    border-radius: 25px;
+}
+
+.form__btn:hover{
+    background-color:rgb(106, 195, 106) ;
+    padding: 0.1rem;
+    border-radius: 15px;
+}
+
