@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
 /* ---- Reset ---- */
 :root {
     --background-body: #06292E;
@@ -6,6 +7,7 @@
   
   * {
     box-sizing: border-box;
+    font-family:'Roboto Mono' monospace;
   }
   body {
     margin: 0;
